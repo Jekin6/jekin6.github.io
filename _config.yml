@@ -1,1 +1,10 @@
 theme: jekyll-theme-architect
+
+permalink: /:title
+
+title: Jekin's blog
+url: https://jekin6.github.io/
+feed: /atom.xml
+author_info: <a href="https://jekin6.github.io/">Jekin Zhang</a>
+
+markdown: rdiscount
