@@ -8,7 +8,7 @@ layout: default
       <div class="info-card">
         <h1>Jekin's Blog</h1>
         <a href="http://weibo.com/2360710600/" target="_blank"><img src="http://www.weibo.com/favicon.ico" alt="" width="25"/></a>
-        <a href="http://github.com/Jekin6/" target="_blank"><img src="http://github.com/favicon.ico" alt="" width="22"/></a>
+        <a href="http://github.com/Jekin6/" target="_blank"><img src="https://github.com/favicon.ico" alt="" width="22"/></a>
         <a href="http://instagram.com/jekin6/" target="_blank"><img src="http://d36xtkk24g8jdx.cloudfront.net/bluebar/00c6602/images/ico/favicon.ico" alt="" width="22"/></a>
       </div>
       <div id="particles-js"></div>
