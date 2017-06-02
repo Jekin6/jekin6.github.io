@@ -153,7 +153,6 @@ layout: default
    requestAnimationFrame(update);
    </script>
     </div>
-
     <div class="index-content">
       <ul class="artical-list">
         {% for post in site.categories.blog %}
