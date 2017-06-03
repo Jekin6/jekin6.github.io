@@ -1,4 +1,14 @@
 theme: jekyll-theme-architect
+
+
+gems:
+  - jekyll-redirect-from
+
+exclude:
+ - Gemfile
+ - Gemfile.lock
+
+markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title/
 # paginate: 3
 title: Jekin's blog
