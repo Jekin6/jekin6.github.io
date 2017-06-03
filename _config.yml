@@ -1,7 +1,7 @@
 theme: jekyll-theme-architect
 
-permalink: /blog/:year/:month-:day/:title
-paginate: 3
+permalink: pretty
+# paginate: 3
 title: Jekin's blog
 url: https://jekin6.github.io/
 feed: /atom.xml
