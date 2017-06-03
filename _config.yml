@@ -1,11 +1,9 @@
 theme: jekyll-theme-architect
-
-permalink: pretty
+permalink: /:categories/:year/:month/:day/:title/
 # paginate: 3
 title: Jekin's blog
 url: https://jekin6.github.io/
 feed: /atom.xml
 author_info: <a href="https://jekin6.github.io/">Jekin Zhang</a>
-
-markdown: rdiscount
+markdown: kramdown
 # plugins_dir: '/plugins'
