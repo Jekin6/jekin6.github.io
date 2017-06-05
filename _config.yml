@@ -3,12 +3,12 @@ theme: jekyll-theme-architect
 
 gems:
   - jekyll-redirect-from
-
+  - jekyll-paginate
+#  - jekyll-gist
 exclude:
  - Gemfile
  - Gemfile.lock
 
-markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title/
 # paginate: 3
 title: Jekin's blog
@@ -16,4 +16,9 @@ url: https://jekin6.github.io/
 feed: /atom.xml
 author_info: <a href="https://jekin6.github.io/">Jekin Zhang</a>
 markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
+line_numbers: false
 # plugins_dir: '/plugins'
+# incremental: false
