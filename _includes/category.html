@@ -2,7 +2,7 @@
  <div class="category">
    <h2>blog</h2>
     <ul>
-      {% for post in site.categories.blog %}
+      {% for post in site.categories.blogs %}
       <li>
         <a href="{{ post.url }}" class="title">{{ post.title }} {{post.category}}</a>
       </li>
@@ -10,7 +10,7 @@
     </ul>
    <h2>article</h2>
    <ul>
-     {% for post in site.categories.article %}
+     {% for post in site.categories.articles %}
      <li>
        <a href="{{ post.url }}" class="title">{{ post.title }} {{post.category}}</a>
      </li>
