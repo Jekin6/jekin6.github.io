@@ -28,4 +28,11 @@ $(function() {
     if(/\#comment/.test(location.hash)){
         $('#disqus_container .comment').trigger('click');
     }
+
+    $('#toTop').on('click', function () {
+      var top = window.scrollY;
+      while (top > 1) {
+        window.scrollTo(window.scrollX, --top);
+      }
+    });
 })

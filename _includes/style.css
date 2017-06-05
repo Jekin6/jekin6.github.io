@@ -628,3 +628,11 @@ canvas {
 .count-particles{
   border-radius: 0 0 3px 3px;
 }
+
+#toTop{
+  position: fixed;
+  bottom: 2em;
+  right: 5em;
+  color: royalblue;
+  cursor: pointer;
+}
