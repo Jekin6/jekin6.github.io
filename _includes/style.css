@@ -632,7 +632,17 @@ canvas {
 #toTop{
   position: fixed;
   bottom: 2em;
-  right: 5em;
+  right: 2em;
   color: royalblue;
   cursor: pointer;
+  z-index: 2;
+}
+
+#toBottom{
+    position: fixed;
+    top: 2em;
+    right: 2em;
+    color: royalblue;
+    cursor: pointer;
+    z-index: 2;
 }

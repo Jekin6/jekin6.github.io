@@ -29,10 +29,17 @@ $(function() {
         $('#disqus_container .comment').trigger('click');
     }
 
-    $('#toTop').on('click', function () {
-      var top = window.scrollY;
-      while (top > 1) {
-        window.scrollTo(window.scrollX, --top);
-      }
+    $('#toTop').on('click', function (e) {
+      // var top = $('body').scrollTop();
+      // while (top > 1) {
+      //   window.scrollTo(window.scrollX, --top);
+      // }
+      e.preventDefault();
+      $("html, body").animate({scrollTop:"0"},600);
     });
+
+  $('#toBottom').on('click', function (e) {
+    e.preventDefault();
+    $('body').animate({ scrollTop: $(document).height() }, 600);
+  });
 })
