@@ -9,7 +9,7 @@ exclude:
  - Gemfile
  - Gemfile.lock
 
-permalink: /:categories/:year/:month/:day/:title/
+permalink: /:categories/:year/:month-:day/:title/
 # paginate: 3
 title: Jekin's blog
 url: https://jekin6.github.io/
