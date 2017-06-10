@@ -29,13 +29,30 @@ $(function() {
         $('#disqus_container .comment').trigger('click');
     }
 
+  $(window).scroll( function(event){
+    // $("#msg").append( $(this).scrollTop() + '<br>' );
+    // console.log('data', event.pageYOffset);
+    var data = $(this).scrollTop();
+    if(data>0) {
+      $('#toTop').fadeIn();
+    } else {
+      $('#toTop').fadeOut();
+    }
+
+    if ($(document).scrollTop() >= $(document).height() - $(window).height()) {
+      // alert("滚动条已经到达底部为" + $(document).scrollTop());
+      $('#toBottom').fadeOut();
+    } else{
+      $('#toBottom').fadeIn();
+    }
+
+
+  });
+
+
     $('#toTop').on('click', function (e) {
-      // var top = $('body').scrollTop();
-      // while (top > 1) {
-      //   window.scrollTo(window.scrollX, --top);
-      // }
       e.preventDefault();
-      $("html, body").animate({scrollTop:"0"},600);
+      $("body").animate({scrollTop:"0"},600);
     });
 
   $('#toBottom').on('click', function (e) {

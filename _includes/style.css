@@ -634,8 +634,23 @@ canvas {
   bottom: 2em;
   right: 2em;
   color: royalblue;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: lightgrey;
+  box-shadow: 0px 0px 0px 5px #efefef;
   cursor: pointer;
   z-index: 2;
+}
+
+#toTop span{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  border: 5px solid transparent;
+  border-bottom: 5px solid black;
 }
 
 #toBottom{
@@ -645,4 +660,20 @@ canvas {
     color: royalblue;
     cursor: pointer;
     z-index: 2;
+
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: lightgrey;
+  box-shadow: 0px 0px 0px 5px #efefef;
+}
+
+#toBottom span{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  border: 5px solid transparent;
+  border-top: 5px solid black;
 }
